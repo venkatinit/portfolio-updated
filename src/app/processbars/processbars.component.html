@@ -1,0 +1,14 @@
+<div #progressBarsContainer>
+    <span
+      class="animated-progress"
+      [attr.data-progress]="progressValue1"
+      [@progressAnimation]="{ value: progressValue1 }"
+    ></span>
+    <span
+      class="animated-progress"
+      [attr.data-progress]="progressValue2"
+      [@progressAnimation]="{ value: progressValue2 }"
+    ></span>
+    <!-- Add more progress spans as needed -->
+  </div>
+  
